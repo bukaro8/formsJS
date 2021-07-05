@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Forms First  Method </title>
+</head>
+<body>
+  <section class="main__section">
+    <h1 class="title">forms first method</h1>
+    <form id="form" class="main__form" action="/google.com" method="post">
+      <div class="form__field">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Victor Hugo">
+      </div>
+      <div class="form__field">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" placeholder="Victorugo@correo.com">
+      </div>
+      <div class="form__field" id="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female">
+      </div>
+      <div class="form__field">
+        <label for="terms">I accept the terms and conditions</label>
+        <input type="checkbox" name="terms" id="terms">
+      </div>
+      <button type="submit" id="button" disabled>Send</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
